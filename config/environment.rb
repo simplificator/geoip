@@ -16,6 +16,10 @@ Rails::Initializer.run do |config|
   # -- all .rb files in that directory are automatically loaded.
   # See Rails::Configuration for more options.
 
+  config.gem('rubyzip', :version => '>=0.9.1')
+  config.gem('ar-extensions', :version => '>=0.8.0')
+  
+  
   # Skip frameworks you're not going to use (only works if using vendor/rails).
   # To use Rails without a database, you must remove the Active Record framework
   # config.frameworks -= [ :active_record, :active_resource, :action_mailer ]
