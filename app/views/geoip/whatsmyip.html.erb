@@ -1,0 +1,6 @@
+<h2>Your IP is <%= @ip %></h2>
+<% if @range %>
+This IP is assigned to <%= @range.country %> (<%= @range.country_code_2%>)
+<% else %>
+We could not find your IP in our Database
+<% end %>

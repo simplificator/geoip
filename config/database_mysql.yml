@@ -1,0 +1,10 @@
+development:
+  adapter: mysql
+  database: geoip_development
+  user: root
+  password: blabli
+test:
+  adapter: mysql
+  database: geoip_test
+  user: root
+  password: blabli
