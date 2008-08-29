@@ -48,6 +48,9 @@ namespace :geoip do
   task :download  => [:environment] do
     zip_file = create_import_filename('zip')
     csv_file = create_import_filename('csv')
+    # make sure destination dir exists
+    File.makedirs(File.dirname(zip_file))
+    # remove old file if exists (if download twice at the same day
     File.unlink(csv_file) if File.exist?(csv_file)
     Net::HTTP.start(DATABASE_DOWNLOAD_HOST) do |http|
       resp = http.get(DATABASE_DOWNLOAD_PATH)
