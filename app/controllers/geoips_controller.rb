@@ -1,4 +1,4 @@
-class GeoipController < ApplicationController
+class GeoipsController < ApplicationController
   def show()
     respond_to do |format|
       begin

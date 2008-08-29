@@ -30,8 +30,9 @@ ActionController::Routing::Routes.draw do |map|
   # See how all your routes lay out with "rake routes"
 
   # Install the default routes as the lowest priority.
-  map.connect('geoip/:ip.:format', :controller => 'geoip', :action => 'show')
-  map.connect('geoip/:action', :controller => 'geoip')
+  
+  map.connect('geoips/:ip.:format', :controller => 'geoips', :action => 'show', :conditions => {:method => :get})
+  map.connect('geoips/whatsmyip', :controller => 'geoips', :action => 'whatsmyip', :condtions => {:method => :get})
   #map.connect ':controller/:action/:id'
   #map.connect ':controller/:action/:id.:format'
 end
