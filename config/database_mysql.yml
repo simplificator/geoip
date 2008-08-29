@@ -3,6 +3,11 @@ development:
   database: geoip_development
   user: root
   password: blabli
+production:
+  adapter: mysql
+  database: geoip_production
+  user: root
+  password: blabli
 test:
   adapter: mysql
   database: geoip_test
