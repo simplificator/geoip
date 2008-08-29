@@ -12,8 +12,8 @@ rake geoip:import
 
 === Usage
 
-http://localhost:3000/geoip/123123123123.FORMAT
-http://localhost:3000/geoip/whatsmyip
+http://localhost:3000/ip_ranges/123123123123.FORMAT
+http://localhost:3000/geoips/whatsmyip
 
 FORMAT can be xml or csv
 

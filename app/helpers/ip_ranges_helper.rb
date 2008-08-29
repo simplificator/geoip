@@ -1,0 +1,2 @@
+module IpRangesHelper
+end
