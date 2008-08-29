@@ -2,3 +2,5 @@ tmp/**
 log/**
 config/database.yml
 nbproject/**
+db/data/**
+db/schema.rb
