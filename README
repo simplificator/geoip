@@ -1,5 +1,6 @@
 === Dependencies
 sudo gem install ar-extensions
+sudo gem install rubyzip
 
 
 === Installtion
