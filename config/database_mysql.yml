@@ -1,15 +1,16 @@
 development:
   adapter: mysql
   database: geoip_development
-  user: root
-  password: blabli
+  user: YOUR USERNAME
+  password: YOUR PASSWORD
 production:
   adapter: mysql
   database: geoip_production
-  user: root
-  password: blabli
+  user: YOUR USERNAME
+  password: YOUR PASSWORD
 test:
   adapter: mysql
   database: geoip_test
-  user: root
-  password: blabli
+  user: YOUR USERNAME
+  password: YOUR PASSWORD
+
