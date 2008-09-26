@@ -18,4 +18,13 @@ http://localhost:3000/geoips/whatsmyip
 FORMAT can be xml or csv
 
 
+the IP must be submitted as 12 characters, only numbers, no dots. padd with 0 if a block has 
+less than 3 chars.
+
+Samples:
+10.20.10.20 -> 010020010020
+192.168.0.1 -> 192168000001
+
+
+
 
